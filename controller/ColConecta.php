@@ -12,7 +12,7 @@ class ColConecta {
     }
 
     public function conectar() {
-        @mysql_connect('127.0.0.1', 'root', '');
+        @mysql_connect('127.0.0.1', 'root', 'root123');
         @mysql_select_db('testes');
     }
 
